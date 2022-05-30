@@ -1,0 +1,17 @@
+Aprendi que o git é um dvcs que serve entre outras funções para que o cliente possa duplicar localmente o repositório, e que permite que os desenvolvedores trabalhem simultaneamente.
+o git possui 3 estados: commited, modified e staged:
+   comitted- os dados estão armazenados em seu banco de dados local.
+   modified- significa que você alterou o arquivo mas não fez o commit ainda.
+   staged- significa que você marcou a versão atual de um arquivo modificado para fazer parte de seu próximo commit.
+O repositório GIT é onde se encontra todos os arquivos em sua forma commited.
+No diretório de trabalho estão os arquivos que são modificados ou modificaveis.
+A área de preparação serve para preparar os arquivos que foram modificados para serem enviados ao repositório.
+
+Comandos que aprendi
+touch- : para criar um arquivo, pasta etc.
+git add . - : para adicionar arquivos que vão ser comitados
+git commit -m " ": para comitar o arquivo com uma mensagem / nome
+git status: para ver o estado dos arquivos presentes na pasta.
+git push main/master : para enviar o "projeto" para a branch principal do repositório
+git pull main/master : para "baixar" o projeto da branch do repositório.
+git clone :  para copiar os arquivos que estão no repositório.
