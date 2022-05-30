@@ -12,6 +12,6 @@ touch- : para criar um arquivo, pasta etc.
 git add . - : para adicionar arquivos que vão ser comitados
 git commit -m " ": para comitar o arquivo com uma mensagem / nome
 git status: para ver o estado dos arquivos presentes na pasta.
-git push main/master : para enviar o "projeto" para a branch principal do repositório
-git pull main/master : para "baixar" o projeto da branch do repositório.
+git push origin main/master : para enviar o "projeto" para a branch principal do repositório
+git pull origin main/master : para "baixar" o projeto da branch do repositório.
 git clone :  para copiar os arquivos que estão no repositório.
